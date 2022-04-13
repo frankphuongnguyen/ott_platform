@@ -1,0 +1,6 @@
+postgres_user:frank.nguyen
+postgres_password:password
+postgres_host:db-backend
+postgres_port:2345
+postgres_database=ott_platforms
+postgres_schema=public

@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  db-backend:
+    image: postgres:13
+    container_name: db-backend
+    environment:
+      POSTGRES_USER: frank.phuong
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: ott_platform
+    volumes:
+      - .
+
+
+networks:
+  backend_network:
+    driver: bridge
+    name: backend_network
+    
